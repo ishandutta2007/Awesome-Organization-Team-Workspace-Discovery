@@ -4,11 +4,13 @@
 
 # 🌐 Awesome Organization, Team &amp; Workspace Discovery 🚀
 
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-blue.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Organization-Team-Workspace-Discovery/pulls)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ishandutta2007/Awesome-Organization-Team-Workspace-Discovery/graphs/commit-activity)
 [![Topics](https://img.shields.io/badge/Topics-IDP%20%7C%20Service%20Catalog%20%7C%20Platform%20Engineering-blueviolet)](https://github.com/ishandutta2007/Awesome-Organization-Team-Workspace-Discovery)
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
 > 🌟 **A curated, search-engine-optimized list of top Organization, Team, and Workspace Discovery platforms** — encompassing enterprise SaaS/hosted commercial Internal Developer Portals (IDPs) and self-hosted open-source software solutions for cataloging microservices, mapping team ownership boundaries, and uncovering workspace context across modern engineering organizations. 🌟
 
@@ -29,6 +31,8 @@
 - [📊 Feature Comparison at a Glance](#-feature-comparison-at-a-glance)
 - [🎯 Selection Guide: How to Choose](#-selection-guide-how-to-choose)
 - [🤝 Contributing](#-contributing)
+- [💖 Support &amp; Sponsorship](#-support--sponsorship)
+- [⭐ Star History](#-star-history)
 - [📄 License](#-license)
 
 ---
@@ -226,6 +230,25 @@ Contributions are warmly encouraged! Help us maintain the most comprehensive, ac
 4. 💾 Commit your changes (`git commit -m 'Add exciting discovery tool'`).
 5. 🚀 Push to the branch (`git push origin feature/awesome-addition`).
 6. 📬 Submit a detailed Pull Request.
+
+---
+
+## 💖 Support &amp; Sponsorship
+
+Thank you so much for using and exploring this curated collection! If you find this repository helpful for your team, platform engineering journey, or organization discovery efforts, please consider supporting the project:
+
+- 🌟 **Star the repository** to boost discoverability and help other platform teams find it.
+- 🍴 **Fork and contribute** to keep the dataset updated with cutting-edge tools and frameworks.
+- 📢 **Share with colleagues, platform engineers, and developer communities**.
+- ☕ **Buy a coffee / Sponsor the maintainer:** Support ongoing curation and maintenance via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+[![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-pink?style=for-the-badge&logo=github)](https://github.com/sponsors/ishandutta2007)
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Organization-Team-Workspace-Discovery&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Organization-Team-Workspace-Discovery&type=date&legend=top-left)
 
 ---
 
