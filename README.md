@@ -115,9 +115,9 @@ Self-hosted, vendor-neutral, and community-driven platforms providing complete d
 
 ### 📋 Open-Source Solutions Comparison Table
 
-The table below highlights top open-source projects, **sorted in descending order by GitHub Stars**:
+The table below highlights top open-source projects, **sorted in descending order by GitHub_Stars**:
 
-| Project 📦 | Stars ⭐ | Primary Stack 💻 | License 📜 | Architecture Type 🏗️ | Stargazers 🌟 |
+| Project 📦 | GitHub_Stars ⭐ | Primary Stack 💻 | License 📜 | Architecture Type 🏗️ | Stargazers 🌟 |
 |:---|:---|:---|:---|:---|:---|
 | **[Backstage](https://github.com/backstage/backstage)** | [![Backstage Stars](https://img.shields.io/github/stars/backstage/backstage?style=social&color=white)](https://github.com/backstage/backstage/stargazers) | TypeScript, React, Node.js | Apache-2.0 | Full Internal Developer Portal &amp; Plugin Framework | [View Stargazers](https://github.com/backstage/backstage/stargazers) |
 | **[OpenChoreo](https://github.com/openchoreo/openchoreo)** | [![OpenChoreo Stars](https://img.shields.io/github/stars/openchoreo/openchoreo?style=social&color=white)](https://github.com/openchoreo/openchoreo/stargazers) | Go, Kubernetes, Cilium | Apache-2.0 | Cloud-Native Internal Developer Platform &amp; Catalog | [View Stargazers](https://github.com/openchoreo/openchoreo/stargazers) |
@@ -133,7 +133,7 @@ The table below highlights top open-source projects, **sorted in descending orde
 ### 🔍 Detailed Open-Source Profiles
 
 #### 📦 [Backstage](https://github.com/backstage/backstage)
-- **GitHub Stars:** [![Stars](https://img.shields.io/github/stars/backstage/backstage?style=social&color=white)](https://github.com/backstage/backstage/stargazers)
+- **GitHub_Stars:** [![Stars](https://img.shields.io/github/stars/backstage/backstage?style=social&color=white)](https://github.com/backstage/backstage/stargazers)
 - **Ecosystem Role:** Created by Spotify and incubated under the CNCF, Backstage is the industry's benchmark developer portal framework.
 - **Core Components:**
   - 📖 **Software Catalog:** Centrally tracks services, APIs, libraries, and organizational teams via `catalog-info.yaml` manifests.
@@ -142,37 +142,37 @@ The table below highlights top open-source projects, **sorted in descending orde
 - **Operational Reality:** Highly extensible through hundreds of community plugins, but demands dedicated engineering ownership (2–5 platform engineers) to maintain and evolve.
 
 #### 📦 [OpenChoreo](https://github.com/openchoreo/openchoreo)
-- **GitHub Stars:** [![Stars](https://img.shields.io/github/stars/openchoreo/openchoreo?style=social&color=white)](https://github.com/openchoreo/openchoreo/stargazers)
+- **GitHub_Stars:** [![Stars](https://img.shields.io/github/stars/openchoreo/openchoreo?style=social&color=white)](https://github.com/openchoreo/openchoreo/stargazers)
 - **Ecosystem Role:** A complete, Kubernetes-native developer platform that integrates automated service discovery, GitOps pipelines, and zero-trust networking via Cilium.
 - **Key Features:** Services automatically register endpoint contracts and access policies upon deployment, mapping real-time architectural components to Kubernetes resources.
 
 #### 📦 [Torii](https://github.com/Qovery/Torii)
-- **GitHub Stars:** [![Stars](https://img.shields.io/github/stars/Qovery/Torii?style=social&color=white)](https://github.com/Qovery/Torii/stargazers)
+- **GitHub_Stars:** [![Stars](https://img.shields.io/github/stars/Qovery/Torii?style=social&color=white)](https://github.com/Qovery/Torii/stargazers)
 - **Ecosystem Role:** Spearheaded by Qovery, Torii delivers an open-source, fast, and lightweight Internal Developer Portal built with modern Rust and React.
 - **Key Features:** Tailored for platform teams requiring instant setup, low memory footprint, and modular extensions without Backstage's architectural complexity.
 
 #### 📦 [Compass OSS (by Adin Hodovic)](https://github.com/adinhodovic/compass)
-- **GitHub Stars:** [![Stars](https://img.shields.io/github/stars/adinhodovic/compass?style=social&color=white)](https://github.com/adinhodovic/compass/stargazers)
+- **GitHub_Stars:** [![Stars](https://img.shields.io/github/stars/adinhodovic/compass?style=social&color=white)](https://github.com/adinhodovic/compass/stargazers)
 - **Ecosystem Role:** An elegant, lightweight landing page and service catalog designed for single-pane discovery across container environments.
 - **Key Features:** Automatically detects running services, dashboards, and internal documentation from Docker, Kubernetes, Tailscale, and NetBird network topologies.
 
 #### 📦 [UIGraph](https://github.com/uigraph-oss/uigraph)
-- **GitHub Stars:** [![Stars](https://img.shields.io/github/stars/uigraph-oss/uigraph?style=social&color=white)](https://github.com/uigraph-oss/uigraph/stargazers)
+- **GitHub_Stars:** [![Stars](https://img.shields.io/github/stars/uigraph-oss/uigraph?style=social&color=white)](https://github.com/uigraph-oss/uigraph/stargazers)
 - **Ecosystem Role:** An open-source architecture viewer and dynamic dependency visualizer.
 - **Key Features:** Generates interactive service maps, API spec relationship graphs, and workspace visualizers directly from codebase structures.
 
 #### 📦 [OpenCRM](https://github.com/clawnify/opencrm)
-- **GitHub Stars:** [![Stars](https://img.shields.io/github/stars/clawnify/opencrm?style=social&color=white)](https://github.com/clawnify/opencrm/stargazers)
+- **GitHub_Stars:** [![Stars](https://img.shields.io/github/stars/clawnify/opencrm?style=social&color=white)](https://github.com/clawnify/opencrm/stargazers)
 - **Ecosystem Role:** Lightweight organizational directory and contact/company entity catalog with an intuitive REST API and relation columns.
 - **Key Features:** Simplifies cross-department entity discovery and custom relation mapping outside purely technical service domains.
 
 #### 📦 [Decathlon IDP Backend](https://github.com/Decathlon/internal-developer-platform)
-- **GitHub Stars:** [![Stars](https://img.shields.io/github/stars/Decathlon/internal-developer-platform?style=social&color=white)](https://github.com/Decathlon/internal-developer-platform/stargazers)
+- **GitHub_Stars:** [![Stars](https://img.shields.io/github/stars/Decathlon/internal-developer-platform?style=social&color=white)](https://github.com/Decathlon/internal-developer-platform/stargazers)
 - **Ecosystem Role:** An extensible platform backend engineered specifically for the AI era by Decathlon's enterprise engineering group.
 - **Key Features:** Dynamic graph-based entity modeling, real-time metadata ingestion, and native Model Context Protocol (MCP) server endpoints enabling AI agents to query catalog assets.
 
 #### 📦 [Imbi](https://github.com/aweber/imbi)
-- **GitHub Stars:** [![Stars](https://img.shields.io/github/stars/aweber/imbi?style=social&color=white)](https://github.com/aweber/imbi/stargazers)
+- **GitHub_Stars:** [![Stars](https://img.shields.io/github/stars/aweber/imbi?style=social&color=white)](https://github.com/aweber/imbi/stargazers)
 - **Ecosystem Role:** A focused service, environment, and project catalog developed by AWeber, powered by Python FastAPI, PostgreSQL (Apache AGE), and ClickHouse.
 - **Key Features:** Native FastMCP integration exposing team and service catalogs directly to AI developer assistants, Docker Compose/Helm installation, and project lifecycle tagging.
 
