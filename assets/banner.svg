@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="360" style="background:#0b0f19; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e1a"/>
+      <stop offset="50%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#0a0e1a"/>
+    </linearGradient>
+
+    <!-- Mesh Glow Gradient -->
+    <radialGradient id="mesh-glow-left" cx="20%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="mesh-glow-right" cx="80%" cy="60%" r="50%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Title Gradient -->
+    <linearGradient id="title-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="50%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+
+    <!-- Subtle Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255, 255, 255, 0.03)" stroke-width="1"/>
+    </pattern>
+
+    <style>
+      .bg-particle {
+        animation: float 8s ease-in-out infinite alternate;
+      }
+      .bg-particle-2 {
+        animation: floatReverse 10s ease-in-out infinite alternate;
+      }
+      .pulse-pill {
+        animation: pulsePill 4s ease-in-out infinite alternate;
+      }
+      .glow-orbit {
+        animation: rotateOrbit 20s linear infinite;
+        transform-origin: 600px 180px;
+      }
+      .pulse-ring {
+        animation: ringPulse 3s ease-out infinite;
+      }
+      @keyframes float {
+        0% { transform: translateY(0px) translateX(0px); }
+        100% { transform: translateY(-16px) translateX(12px); }
+      }
+      @keyframes floatReverse {
+        0% { transform: translateY(0px) translateX(0px); }
+        100% { transform: translateY(14px) translateX(-10px); }
+      }
+      @keyframes pulsePill {
+        0% { opacity: 0.8; transform: scale(1); }
+        100% { opacity: 1; transform: scale(1.03); }
+      }
+      @keyframes rotateOrbit {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+      @keyframes ringPulse {
+        0% { r: 10px; opacity: 0.6; }
+        100% { r: 35px; opacity: 0; }
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="360" fill="url(#bg-grad)"/>
+  <rect width="1200" height="360" fill="url(#mesh-glow-left)"/>
+  <rect width="1200" height="360" fill="url(#mesh-glow-right)"/>
+  <rect width="1200" height="360" fill="url(#grid)"/>
+
+  <!-- Dynamic Animated Background Layer (Kept purely decorative behind text) -->
+  <g opacity="0.35">
+    <!-- Connecting network lines -->
+    <path d="M 120 180 Q 280 90 440 180 T 760 180 T 1080 180" fill="none" stroke="rgba(99, 102, 241, 0.3)" stroke-width="1.5" stroke-dasharray="6,6"/>
+    <path d="M 180 260 Q 380 320 600 250 T 1020 230" fill="none" stroke="rgba(56, 189, 248, 0.2)" stroke-width="1.5" stroke-dasharray="4,4"/>
+
+    <!-- Subtle animated floating nodes -->
+    <g class="bg-particle">
+      <circle cx="160" cy="110" r="18" fill="#1e293b" stroke="#3b82f6" stroke-width="1.5"/>
+      <text x="160" y="115" text-anchor="middle" font-size="14" fill="#60a5fa">🌐</text>
+      <circle cx="280" cy="250" r="22" fill="#1e293b" stroke="#8b5cf6" stroke-width="1.5"/>
+      <text x="280" y="256" text-anchor="middle" font-size="16" fill="#a78bfa">🏢</text>
+    </g>
+
+    <g class="bg-particle-2">
+      <circle cx="920" cy="100" r="20" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5"/>
+      <text x="920" y="106" text-anchor="middle" font-size="15" fill="#38bdf8">👥</text>
+      <circle cx="1040" cy="240" r="24" fill="#1e293b" stroke="#6366f1" stroke-width="1.5"/>
+      <text x="1040" y="247" text-anchor="middle" font-size="18" fill="#818cf8">📂</text>
+    </g>
+  </g>
+
+  <!-- Foreground Dynamic Interactive Pill Badges (Top & Bottom to guarantee clear title space) -->
+  <g class="pulse-pill" transform="translate(435, 38)">
+    <rect width="330" height="32" rx="16" fill="#1e293b" stroke="rgba(99, 102, 241, 0.5)" stroke-width="1"/>
+    <circle cx="16" cy="16" r="4" fill="#10b981"/>
+    <text x="175" y="21" text-anchor="middle" font-size="12" font-weight="600" fill="#94a3b8" letter-spacing="1.2">ENTERPRISE PLATFORM DISCOVERY</text>
+  </g>
+
+  <!-- Main Foreground Content: Title & Subtitle Always in Clear Foreground -->
+  <g text-anchor="middle">
+    <!-- Main Title -->
+    <text x="600" y="140" font-size="38" font-weight="800" fill="url(#title-grad)" letter-spacing="-0.5">
+      Organization, Team &amp; Workspace Discovery
+    </text>
+
+    <!-- Subtitle / Mission -->
+    <text x="600" y="185" font-size="17" font-weight="400" fill="#e2e8f0">
+      Internal Developer Portals, Unified Service Catalogs &amp; Collaborative Workspaces
+    </text>
+
+    <text x="600" y="215" font-size="14" font-weight="400" fill="#94a3b8">
+      Architectural governance, service ownership mapping, and self-service platform engineering
+    </text>
+  </g>
+
+  <!-- Dynamic Capability Badges at Bottom -->
+  <g transform="translate(195, 275)">
+    <!-- Badge 1 -->
+    <g transform="translate(0, 0)">
+      <rect width="180" height="38" rx="19" fill="#1e293b" stroke="rgba(59, 130, 246, 0.35)" stroke-width="1"/>
+      <text x="90" y="24" text-anchor="middle" font-size="13" font-weight="600" fill="#93c5fd">🔍 Service Catalog</text>
+    </g>
+
+    <!-- Badge 2 -->
+    <g transform="translate(205, 0)">
+      <rect width="190" height="38" rx="19" fill="#1e293b" stroke="rgba(139, 92, 246, 0.35)" stroke-width="1"/>
+      <text x="95" y="24" text-anchor="middle" font-size="13" font-weight="600" fill="#c4b5fd">👥 Team Ownership</text>
+    </g>
+
+    <!-- Badge 3 -->
+    <g transform="translate(415, 0)">
+      <rect width="190" height="38" rx="19" fill="#1e293b" stroke="rgba(16, 185, 129, 0.35)" stroke-width="1"/>
+      <text x="95" y="24" text-anchor="middle" font-size="13" font-weight="600" fill="#6ee7b7">🚀 Developer Portals</text>
+    </g>
+
+    <!-- Badge 4 -->
+    <g transform="translate(625, 0)">
+      <rect width="185" height="38" rx="19" fill="#1e293b" stroke="rgba(245, 158, 11, 0.35)" stroke-width="1"/>
+      <text x="92" y="24" text-anchor="middle" font-size="13" font-weight="600" fill="#fcd34d">📊 Scorecards &amp; SLOs</text>
+    </g>
+  </g>
+</svg>
